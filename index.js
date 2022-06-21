@@ -1236,7 +1236,9 @@ try{
 })
 
 
-
+app.get('/',(req,res)=>{
+    res.send('Deployed successfully✔✔✔')
+})
 
 app.listen(process.env.PORT || 9002,() =>{
 
