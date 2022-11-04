@@ -1,0 +1,569 @@
+@media only screen and (min-width: 1024px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .sideBar
+    {
+        /* background-color: rgb(226, 225, 223); */
+        background-color: #063146;
+        height: 100vh;
+        width: 20%;
+    }
+    .navLink ul a
+    {
+        display: block;
+        height: 100%;
+        width: 20%;
+        line-height: 65px;
+        color: #fff;
+        padding-left: 60px;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(255,255,255,.1);
+        /* border-bottom: 1px solid black; */
+        transition: 0.4s;
+        text-decoration: none;
+    
+    }
+    ul li:hover a
+    {
+        padding-left: 110px;
+    }
+    
+    .cards
+    {
+        margin-left: -55px;
+    }
+    .profile img
+    {
+      height: 120px;
+      width: 120px;
+      border-radius: 50px;
+      margin-left: 50px;
+      margin-top: 90px;
+      margin-bottom: 16px;
+    
+    }
+    .dash
+    {
+        margin-top: -20vh;
+        margin-left: 25vh;
+        position: relative;
+        color: black;
+    }
+    .lab
+    {
+        position: relative;
+        color: #fff;
+        margin-left: 60px;
+        margin-top: -20px;
+    
+    }
+    .card1
+    {
+        background-color: rgb(86, 86, 236);
+        height: 100px;
+        width: 160px;
+        position: relative;
+        margin-top: -90vh;
+        margin-left: 32vh;
+    }
+    .card2
+    {
+        background-color: green;
+        height: 100px;
+        width: 160px;
+        position: relative;
+        margin-top: -11.4vh;
+        margin-left: 55vh;
+    
+    }
+    
+    .card3
+    {
+        background-color: rgb(193, 196, 19);
+        height: 100px;
+        width: 160px;
+        position: relative;
+        margin-left: 76vh;
+        margin-top: -11.4vh;
+    
+    }
+    
+    .card4
+    {
+        background-color: rgb(196, 32, 32);
+        height: 100px;
+        width: 160px;
+        position: relative;
+        margin-left: 100vh;
+        margin-top: -11.4vh;
+    
+    }
+    /* .notification
+    {
+        background-color: grey;
+        height: 30px;
+        width: 180px;
+        margin-top: 160px;
+        margin-left: 170vh;
+    } */
+    
+    /* .noti button{
+    
+       margin-left: 5px;
+       margin-top: 100px;
+    } */
+    
+    .noti
+    {
+        width: 190px;
+        height: 30px;
+        margin-top: 220px;
+        margin-left: 95vh;
+    }
+    .noti button
+    {
+        width: 150px;
+        height: 40px; 
+    }
+    /* .navLink
+    {
+        margin-left: 130px;
+        margin-top: 2vh;
+    }
+    ul 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+     
+    }
+    li{
+    
+        margin-bottom: 12px;
+        text-decoration: none;
+        
+    
+    } */
+    /* .navLink ul{
+       
+        margin-right: 100px;
+    } */
+    /* .navLink ul li a{
+      
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 8px 12px;
+      
+    } */
+      /* .topnav ul li{
+        display: inline-block;
+        padding: 15px;
+      
+      
+      } */
+      /* .navLink a:hover{
+        background-position: left bottom ;
+        color: #0047ab;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+    } */
+    /* #tag
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    } */
+    
+    .card1Text
+    {
+        color: #fff;
+    }
+    
+    .card1Text i{
+    
+       margin-left:120px;
+    
+    }
+    .line
+    {
+        background-color: black;
+    
+    height: 2px;
+    width: 202px;
+    
+    
+    }
+    
+    .content
+    {
+        background-color: whitesmoke;
+        /* background-color: #777; */
+        height: 62vh;
+        width: 80%;
+        margin-left: 24vh;
+        margin-top: -35vh;
+    }
+    
+    /* .Table
+    {
+      margin-top: -85vh;
+      margin-left: 400px;
+    } */
+    .Table table th{
+      width: 250px;
+    }
+    .Table {
+      border-collapse: collapse;
+      /* margin: 25px 0; */
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 300px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      
+    }
+    .Table thead tr {
+      background-color: grey;
+      color: #ffffff;
+      text-align: left;
+     
+     
+    }
+    .Table th,
+    .Table td {
+        padding: 12px 15px;
+        
+    }
+    .Table tbody tr {
+      border-bottom: 1px solid #dddddd;
+      
+    }
+    
+    .buttn
+    {
+      margin-left: -50px;
+      margin-top: 50px;
+      
+    }
+    .createButton button
+    {
+      height: 50px;
+      width: 150px;
+      font-size: 15px;
+      cursor: pointer;
+      margin-bottom: 10px;
+     
+    }
+    
+    #update
+    {
+        background-color: dodgerblue;
+        width: 90px;
+        height: 30px;
+        cursor: pointer;
+        color: #fff;
+    }
+    #view
+    {
+        background-color: #1fae51;
+        width: 90px;
+        height: 30px;
+        cursor: pointer;
+        color: #fff;
+        
+        
+    
+    }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sideBar
+{
+    /* background-color: rgb(226, 225, 223); */
+    background-color: #063146;
+    height: 100vh;
+    width: 20%;
+}
+.navLink ul a
+{
+    display: block;
+    height: 100%;
+    width: 20%;
+    line-height: 65px;
+    color: #fff;
+    padding-left: 125px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    /* border-bottom: 1px solid black; */
+    transition: 0.4s;
+    text-decoration: none;
+
+}
+ul li:hover a
+{
+    padding-left: 110px;
+}
+
+.cards
+{
+    margin-left: -55px;
+}
+.profile img
+{
+  height: 140px;
+  width: 140px;
+  border-radius: 50px;
+  margin-left: 120px;
+  margin-top: 90px;
+  margin-bottom: 16px;
+
+}
+.dash
+{
+    margin-top: -20vh;
+    margin-left: 44vh;
+    position: relative;
+    color: black;
+}
+.lab
+{
+    position: relative;
+    color: #fff;
+    margin-left: 130px;
+    margin-top: -20px;
+
+}
+.card1
+{
+    background-color: rgb(86, 86, 236);
+    height: 100px;
+    width: 220px;
+    position: relative;
+    margin-top: -90vh;
+    margin-left: 50vh;
+}
+.card2
+{
+    background-color: green;
+    height: 100px;
+    width: 220px;
+    position: relative;
+    margin-top: -10vh;
+    margin-left: 85vh;
+
+}
+
+.card3
+{
+    background-color: rgb(193, 196, 19);
+    height: 100px;
+    width: 220px;
+    position: relative;
+    margin-left: 120vh;
+    margin-top: -10vh;
+
+}
+
+.card4
+{
+    background-color: rgb(196, 32, 32);
+    height: 100px;
+    width: 220px;
+    position: relative;
+    margin-left: 155vh;
+    margin-top: -10vh;
+
+}
+/* .notification
+{
+    background-color: grey;
+    height: 30px;
+    width: 180px;
+    margin-top: 160px;
+    margin-left: 170vh;
+} */
+
+/* .noti button{
+
+   margin-left: 5px;
+   margin-top: 100px;
+} */
+
+.noti
+{
+    width: 190px;
+    height: 30px;
+    margin-top: 220px;
+    margin-left: 170vh;
+}
+.noti button
+{
+    width: 190px;
+    height: 40px; 
+}
+/* .navLink
+{
+    margin-left: 130px;
+    margin-top: 2vh;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+ 
+}
+li{
+
+    margin-bottom: 12px;
+    text-decoration: none;
+    
+
+} */
+/* .navLink ul{
+   
+    margin-right: 100px;
+} */
+/* .navLink ul li a{
+  
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 12px;
+  
+} */
+  /* .topnav ul li{
+    display: inline-block;
+    padding: 15px;
+  
+  
+  } */
+  /* .navLink a:hover{
+    background-position: left bottom ;
+    color: #0047ab;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+} */
+/* #tag
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+} */
+
+.card1Text
+{
+    color: #fff;
+}
+
+.card1Text i{
+
+   margin-left:120px;
+
+}
+.line
+{
+    background-color: black;
+
+height: 2px;
+width: 370px;
+
+
+}
+
+.content
+{
+    background-color: whitesmoke;
+    /* background-color: #777; */
+    height: 62vh;
+    width: 80%;
+    margin-left: 43vh;
+    margin-top: -35vh;
+}
+
+/* .Table
+{
+  margin-top: -85vh;
+  margin-left: 400px;
+} */
+.Table table th{
+  width: 250px;
+}
+.Table {
+  border-collapse: collapse;
+  /* margin: 25px 0; */
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 300px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+.Table thead tr {
+  background-color: grey;
+  color: #ffffff;
+  text-align: left;
+ 
+ 
+}
+.Table th,
+.Table td {
+    padding: 12px 15px;
+    
+}
+.Table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  
+}
+
+.buttn
+{
+  margin-left: -50px;
+  margin-top: 50px;
+  
+}
+.createButton button
+{
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 10px;
+ 
+}
+
+#update
+{
+    background-color: dodgerblue;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+#view
+{
+    background-color: #1fae51;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    color: #fff;
+    
+    
+
+}
+
+}
